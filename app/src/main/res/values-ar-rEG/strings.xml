@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bank</string>
+    <string name="name">الاسم</string>
+    <string name="e_mail">البريد الالكترونى</string>
+    <string name="contact_us">تواصل معنا</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="msg_title">عنوان الرسالة</string>
+    <string name="your_msg">نص الرسالة ...</string>
+    <string name="send">ارسال</string>
+    <string name="password">الرقم السرى</string>
+    <string name="confirm_password">تأكيد الرقم السرى</string>
+    <string name="forgot_pass">هل نسيت كلمة السر؟</string>
+    <string name="sign_in">دخول</string>
+    <string name="create_new_account">إنشاء حساب جديد</string>
+    <string name="birth_date">تاريخ الميلاد</string>
+    <string name="blode_type">نوع فصيلة الدم</string>
+    <string name="last_donate">آخر ميعاد تبرع</string>
+    <string name="register">تسجيل</string>
+    <string name="search_here">إبحث هنا...</string>
+    <string name="modify">تعديل</string>
+    <string name="city">المدينة</string>
+    <string name="save">حفظ</string>
+    <string name="hospital">مستشفى</string>
+    <string name="details">التفاصيل</string>
+    <string name="call">إتصال\n\n</string>
+    <string name="remember">تذكرنى</string>
+    <string name="home">الرئيسية</string>
+    <string name="favorite">المفضلة</string>
+    <string name="profile">معلوماتى</string>
+    <string name="report">إبلاغ</string>
+    <string name="exit">خروج</string>
+    <string name="about_app">عن التطبيق</string>
+    <string name="rate">تقييم على المتجر</string>
+    <string name="notify_setting">إعدادات الإشعارات</string>
+    <string name="notification">الاشعارات</string>
+    <string name="age">العمر</string>
+    <string name="number_of_bags">عدد الاكياس</string>
+    <string name="hospital_address">": عنوان المستشفي "</string>
+    <string name="hospital_name">: اسم المستشفي</string>
+    <string name="notes">ملاحظات</string>
+    <string name="send_request">ارسال الطلب</string>
+    <string name="ask_donate">طلب تبرع</string>
+    <string name="number_of_needed_bags">عدد الاكياس  المطلوبة</string>
+</resources>

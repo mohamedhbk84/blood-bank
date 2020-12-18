@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Bank</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+
+    <string name="name">name</string>
+    <string name="e_mail">e-mail</string>
+    <string name="contact_us">contact us</string>
+    <string name="phone">phone</string>
+    <string name="msg_title">msg title</string>
+    <string name="your_msg">your msg....</string>
+    <string name="send">send</string>
+    <string name="password">password</string>
+    <string name="confirm_password">confirm_password</string>
+    <string name="forgot_pass">Forgot password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="birth_date">Birth date</string>
+    <string name="blode_type">Blode type</string>
+    <string name="last_donate">last donate</string>
+    <string name="register">register</string>
+    <string name="search_here">serach_here...</string>
+    <string name="modify">modify</string>
+    <string name="city">City</string>
+    <string name="save">save</string>
+    <string name="hospital">hospital</string>
+    <string name="details">details</string>
+    <string name="remember">Remember me</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="profile">Profile</string>
+    <string name="report">Report</string>
+    <string name="exit">Exit</string>
+    <string name="call">call</string>
+    <string name="about_app">About APP</string>
+    <string name="rate">Rate on PlayStore</string>
+    <string name="notification">notification</string>
+    <string name="notify_setting">Notify setting</string>
+    <string name="number_of_bags">number of bags</string>
+    <string name="hospital_address">hospital address :</string>
+    <string name="hospital_name">hospital name :</string>
+    <string name="notes">notes</string>
+    <string name="age">age</string>
+    <string name="send_request">send reqquest</string>
+    <string name="ask_donate">Ask to donate</string>
+    <string name="number_of_needed_bags">number of needed bags :</string>
+
+
+</resources>

@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.donation_details.Details_Ask_donate_Fragmet">
+
+   <android.support.constraint.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/white">
+
+
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           app:layout_constraintTop_toTopOf="parent">
+
+
+           <android.support.constraint.ConstraintLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <TextView
+                   android:id="@+id/textView"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginTop="16dp"
+                   android:gravity="center"
+                   android:text="Name : "
+                   android:textColor="#212121"
+                   android:paddingStart="10dp"
+                   android:paddingLeft="10dp"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toTopOf="parent" />
+
+               <TextView
+                   android:id="@+id/details_donate_name"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginTop="16dp"
+                   android:gravity="start|center"
+                   android:paddingStart="10dp"
+                   android:paddingLeft="10dp"
+                   android:paddingEnd="10dp"
+                   android:textColor="#212121"
+                   android:textColorHint="#212121"
+                   app:layout_constraintStart_toEndOf="@+id/textView"
+                   app:layout_constraintTop_toTopOf="parent" />
+
+
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginEnd="8dp"
+                   android:layout_marginRight="8dp"
+                   android:background="@color/gray"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/details_donate_name"></View>
+
+
+               <TextView
+                   android:id="@+id/textView13"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginTop="16dp"
+                   android:gravity="center"
+                   android:text="Age : "
+                   android:paddingStart="10dp"
+                   android:paddingLeft="10dp"
+                   android:textColorHint="#212121"
+                   android:textColor="#212121"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+               <TextView
+                   android:id="@+id/details_donate_age"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="12dp"
+                   android:layout_marginLeft="12dp"
+                   android:layout_marginTop="16dp"
+                   android:gravity="start|center"
+                   android:paddingStart="10dp"
+                   android:paddingLeft="10dp"
+                   android:textColor="#212121"
+                   android:textColorHint="#212121"
+                   app:layout_constraintStart_toEndOf="@+id/textView13"
+                   app:layout_constraintTop_toBottomOf="@+id/details_donate_name" />
+
+
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginEnd="8dp"
+                   android:layout_marginRight="8dp"
+                   android:background="@color/gray"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/details_donate_age"></View>
+
+
+               <TextView
+                   android:id="@+id/textView14"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginTop="16dp"
+                   android:gravity="center"
+                   android:text="Blood type : "
+                   android:paddingStart="10dp"
+                   android:paddingLeft="10dp"
+
+                   android:textColor="#212121"
+                   android:textColorHint="#212121"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+               <TextView
+                   android:id="@+id/details_donate_blodeType"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="12dp"
+                   android:layout_marginLeft="12dp"
+                   android:layout_marginTop="16dp"
+                   android:gravity="start|center"
+                   android:paddingStart="10dp"
+                   android:paddingLeft="10dp"
+                   android:textColor="#212121"
+                   android:textColorHint="#212121"
+                   app:layout_constraintStart_toEndOf="@+id/textView14"
+                   app:layout_constraintTop_toBottomOf="@+id/details_donate_age" />
+
+
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginEnd="8dp"
+                   android:layout_marginRight="8dp"
+                   android:background="@color/gray"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/details_donate_blodeType"></View>
+
+
+
+               <TextView
+                   android:id="@+id/bags"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginTop="16dp"
+                   android:gravity="start|center"
+                   android:hint="@string/number_of_needed_bags"
+                   android:paddingStart="10dp"
+                   android:paddingLeft="10dp"
+                   android:textColorHint="#212121"
+                   android:textColor="#212121"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/details_donate_blodeType"></TextView>
+
+
+               <TextView
+                   android:id="@+id/details_donate_bags_numbers"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="16dp"
+                   android:layout_marginLeft="16dp"
+                   android:layout_marginTop="16dp"
+                   android:layout_marginBottom="8dp"
+                   android:gravity="start|center"
+                   android:textColor="#212121"
+                   android:textColorHint="#212121"
+                   app:layout_constraintBottom_toBottomOf="@+id/hospital_name"
+                   app:layout_constraintStart_toEndOf="@+id/bags"
+                   app:layout_constraintTop_toBottomOf="@+id/details_donate_blodeType"
+                   app:layout_constraintVertical_bias="0.0" />
+
+
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginEnd="8dp"
+                   android:layout_marginRight="8dp"
+                   android:background="@color/gray"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/bags"></View>
+
+
+               <TextView
+                   android:id="@+id/hos"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginTop="16dp"
+                   android:gravity="start|center"
+                   android:hint="@string/hospital_name"
+                   android:paddingStart="10dp"
+                   android:paddingLeft="10dp"
+                   android:textColor="#212121"
+                   android:textColorHint="#212121"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/bags" />
+
+               <TextView
+                   android:id="@+id/hospital_name"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="12dp"
+                   android:layout_marginLeft="12dp"
+                   android:layout_marginTop="16dp"
+                   android:gravity="start|center"
+                   android:textColor="#212121"
+                   android:textColorHint="#212121"
+                   app:layout_constraintStart_toEndOf="@+id/hos"
+                   app:layout_constraintTop_toBottomOf="@+id/details_donate_bags_numbers" />
+
+
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginEnd="8dp"
+                   android:layout_marginRight="8dp"
+                   android:background="@color/gray"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/hospital_name"></View>
+
+
+               <TextView
+                   android:id="@+id/hosAdd"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginTop="16dp"
+                   android:gravity="start|center"
+                   android:hint="@string/hospital_address"
+                   android:paddingStart="10dp"
+                   android:paddingLeft="10dp"
+                   android:textColorHint="#212121"
+                   android:textColor="#212121"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/hospital_name" />
+
+
+               <TextView
+                   android:id="@+id/hospital_address"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="12dp"
+                   android:layout_marginLeft="12dp"
+                   android:layout_marginTop="16dp"
+                   android:gravity="start|center"
+                   android:textColor="#212121"
+                   android:textColorHint="#212121"
+                   app:layout_constraintStart_toEndOf="@+id/hosAdd"
+                   app:layout_constraintTop_toBottomOf="@+id/hospital_name" />
+
+
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginTop="1dp"
+                   android:layout_marginEnd="8dp"
+                   android:layout_marginRight="8dp"
+                   android:background="@color/gray"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintHorizontal_bias="0.0"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/hospital_address"></View>
+
+
+               <TextView
+                   android:id="@+id/textView15"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginTop="16dp"
+                   android:text="Phone : "
+                   android:textColor="#212121"
+                   android:textColorHint="#212121"
+                   android:gravity="center"
+                   android:paddingStart="10dp"
+                   android:paddingLeft="10dp"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/hosAdd" />
+
+               <TextView
+                   android:id="@+id/details_donate_phone"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="12dp"
+                   android:layout_marginLeft="12dp"
+                   android:layout_marginTop="16dp"
+                   android:gravity="start|center"
+                   android:paddingStart="10dp"
+                   android:paddingLeft="10dp"
+                   android:paddingEnd="10dp"
+                   android:textColor="#212121"
+                   android:textColorHint="#212121"
+                   app:layout_constraintStart_toEndOf="@+id/textView15"
+                   app:layout_constraintTop_toBottomOf="@+id/hosAdd" />
+
+
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginEnd="8dp"
+                   android:layout_marginRight="8dp"
+                   android:background="@color/gray"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/details_donate_phone"></View>
+
+
+
+               <TextView
+                   android:id="@+id/details_donate_notes"
+                   android:layout_width="match_parent"
+                   android:layout_height="80dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginTop="16dp"
+                   android:layout_marginEnd="8dp"
+                   android:layout_marginRight="8dp"
+                   android:gravity="start"
+                   android:paddingTop="10dp"
+                   android:paddingStart="10dp"
+                   android:paddingLeft="10dp"
+                   android:paddingEnd="10dp"
+                   android:textColorHint="#212121"
+                   android:textColor="#212121"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintHorizontal_bias="0.0"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/details_donate_phone" />
+
+
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginEnd="8dp"
+                   android:layout_marginRight="8dp"
+                   android:background="@color/gray"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintHorizontal_bias="1.0"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/details_donate_notes"></View>
+
+
+               <Button
+                   android:id="@+id/ask_donate_call_btn"
+                   android:layout_width="match_parent"
+                   android:layout_height="40dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginTop="16dp"
+                   android:layout_marginEnd="8dp"
+                   android:layout_marginRight="8dp"
+                   android:layout_marginBottom="30dp"
+                   android:background="@color/green"
+                   android:text="@string/call"
+                   android:textColor="@color/white"
+                   android:textSize="20dp"
+                   app:layout_constraintBottom_toBottomOf="parent"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintHorizontal_bias="5.0"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintTop_toBottomOf="@+id/details_donate_notes" />
+           </android.support.constraint.ConstraintLayout>
+
+
+       </ScrollView>
+
+
+
+   </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@mipmap/favorite"
+            android:title="@string/favorite" />
+
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@mipmap/info"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/nav_notify"
+            android:icon="@mipmap/notify"
+            android:title="@string/notify_setting" />
+
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@mipmap/report"
+            android:title="@string/report" />
+
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@mipmap/message"
+            android:title="@string/contact_us" />
+
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@mipmap/exit"
+            android:title="@string/exit" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about_app"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/about_app" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/rate" />
+        </menu>
+    </item>
+
+</menu>
